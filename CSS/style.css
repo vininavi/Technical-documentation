@@ -1,0 +1,84 @@
+.menu ul{
+    color: white;
+    font-size: medium;
+    height: 4px;
+    background-attachment: fixed;
+    padding-left: 7px;
+    position: relative;    
+    width: 100%; 
+    left: -7px;
+}
+.menu{
+    padding: 1px;
+    margin-bottom: 0px;
+    width: 700px;
+    background-color:lightgrey;
+    color: black;
+    }
+
+.container{
+    top: 1px;
+    text-overflow: unset;
+    margin-right: 15px;
+    text-align:justify;
+    font-size: 25px;
+    text-wrap:stable;
+    margin-left: 20px;
+}
+.menu li{
+    border-bottom: 1px dashed black;
+    font-size: 16px;
+}
+.row{
+    display:flex;
+    margin-bottom:fr;
+}
+h6{
+   margin-top: 0px;
+   height: 4vh;
+   background-color: orange;
+   justify-content: space-between;
+   margin-left: 3px;
+   margin-right: 10px;
+   font-size: x-large;
+   
+}
+
+h4{
+    font-size: xx-large;
+
+}
+
+
+@media only screen and (max-width:600px) and (orientation:landscape){
+    .row{
+    width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) and (orientation:portrait){
+    .row{
+    width: 100%;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:768px){
+    .row{
+    width: 100%;
+    }
+}
+
+
+
+/*@media (min-device-height: 667px) 
+and (min-device-width: 375px)  
+and (-webkit-min-device-pixel-ratio: 3){
+    .row, .container{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+
+
+    
